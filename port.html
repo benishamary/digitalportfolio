@@ -1,0 +1,87 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="port.css">
+</head>
+<body>
+    <header>
+        <h1><strong> SKY LINE TRAVEL AGENCIES</strong></h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>iam an enthusiastic, self-motivated,reliable,responsible and hard working person.<br>
+            
+            I'm a passionate individual with an unwavering love for music, nature, and travel. These three elements define who I am and guide my journey through life.
+            
+            Music has always been my muse, and I find solace in the melodies that traverse my ears. Whether I'm strumming a guitar, playing the piano, or simply immersing myself in the sounds of a live concert, music is my refuge and my creative outlet. It's in those harmonious notes that I discover my own rhythm and expression.<br>
+            <br>
+            
+            My connection with nature is equally profound. I relish the serenity of a forest hike, the rhythmic crashing of waves at the beach, and the breathtaking vistas of mountains. Being in nature revitalizes my spirit and reminds me of the beauty and wonder that exist in the world.
+            
+            My passion for travel complements my love for music and nature. It's in my explorations that I uncover new melodies, landscapes, and cultures. Every journey is a symphony of experiences waiting to be composed, and I relish the opportunity to immerse myself in diverse environments, connect with people from all walks of life, and savor the unique flavors of each destination.<br>
+            <br>
+
+            
+            These passions not only define my interests but also shape my perspective on life. They inspire me to seek beauty in the everyday, find harmony in the midst of chaos, and embrace the richness of human connection. I'm excited about the journey ahead and the stories I have yet to discover, both in the world of music and on the open road, where nature's grandeur and cultural wonders await.<br>
+            
+        </p>
+    </section>
+
+    <section id="portfolio">
+        <h2>My Portfolio</h2>
+        <div class="image-container">
+            <img src="images/free-photo-of-old-map-unfolded-on-grass.jpeg" alt="Image 1" width="600" height="500">
+            <img src="images/free-photo-of-sculptures-of-usa-presidents-at-mount-rushmore-national-memorial.jpeg" alt="Image 2" width="800" height="500">
+            <img src="images/pexels-photo-345522.jpeg"alt="Image 1" width="600" height="400">
+            <img src="images/pexels-photo-4215110.webp"alt="image 2" width="800" height="400"> 
+        </div>
+        
+        <!-- Add your projects here -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        
+    <p>Feel free to get in touch with us using the form below:</p>
+
+    <form action="process_form.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <input type="submit" value="Submit">
+    </form>
+        <!-- Add a contact form or your contact information here -->
+    </section>
+    
+    <script type="text/javascript">
+      
+      
+         
+      function alertmsg() {
+            alert("Submitted Successfully")
+        }
+    </script>
+</body>
+</html>
